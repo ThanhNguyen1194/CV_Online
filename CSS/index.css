@@ -1,0 +1,105 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Noto Sans", sans-serif;
+}
+.section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: greenyellow;
+  color: #eef3f0;
+}
+.section.active {
+  background-color: #22c3aa;
+}
+.page1_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.page1_content .social a {
+  padding: 0 10px;
+  font-size: 30px;
+  color: #eef3f0;
+  transition: all 0.5s;
+}
+.page1_content .social a:hover {
+  color: #ef2525f2;
+}
+.page1_content .avartar {
+  width: 250px;
+  height: 240px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-bottom: 20px;
+
+  display: flex;
+  justify-content: center;
+
+  border: 10px solid rgba(2, 95, 2, 0.616);
+}
+.page1_content h1 {
+  font-weight: bold;
+  text-shadow: 3px 3px 4px rgba(0, 0, 0, 0.5);
+}
+.page1_content .avartar img {
+  width: 300px;
+}
+
+.page2 .fp-is-overflow .fp-overflow.fp-auto-height-responsive,
+.fp-is-overflow .fp-overflow.fp-auto-height,
+.fp-is-overflow > .fp-overflow {
+  overflow-y: unset;
+  width: 80%;
+  text-align: center;
+}
+
+.page2 .project_detail {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  justify-content: center;
+}
+.page2 .project_detail h3 a {
+  color: #85ffe8;
+  transition: all 0.3s;
+}
+.page2 .project_detail h3 a:hover {
+  text-decoration: none;
+  color: #38fd49;
+}
+.page2 .project_detail p {
+  margin-bottom: 0;
+}
+.page2 .col-6 {
+  margin-bottom: 20px;
+}
+.page2 .col-6 .col-4 a {
+  transition: all 0.5s;
+}
+.page2 .col-6 .col-4 a:hover {
+  color: #85ffe8 !important;
+}
+.page2 .moreGitHub:hover {
+  color: #85ffe8 !important;
+}
+.page3 div {
+  margin: 20px 0;
+}
+.page3 div span {
+  background-color: #096254;
+  padding: 5px 15px;
+  border-radius: 10px;
+  transition: all 0.4s;
+}
+.page3 div span:hover {
+  background-color: #38fd49;
+  transform: scale(1.5) !important;
+  font-size: 20px;
+}
